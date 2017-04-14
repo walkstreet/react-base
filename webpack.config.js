@@ -1,7 +1,7 @@
 /*-----------------------------
  单页面应用开发环境构建
  命令：npm run dev
- 作者：qing.yan@click-v.com
+ 作者：qingskybabe@qq.com
  备注：目前scss文件编译后会在源文件所属目录自动创建一个.js的文件，具体原因还需进一步观察，和ExtractTextPlugin，scss编译无关。
  */
 var path = require('path');

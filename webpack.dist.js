@@ -1,7 +1,7 @@
 /*-----------------------------
  单页面应用发布打包环境构建
  命令：npm run build
- 作者：qing.yan@click-v.com
+ 作者：qingskybabe@qq.com
  */
 var path = require('path');
 var webpack = require('webpack');

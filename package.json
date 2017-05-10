@@ -7,7 +7,7 @@
   "author": "King",
   "license": "MIT",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node server.js && open -a 'http://localhost:8080'",
     "build": "webpack --config webpack.dist.js --progress"
   },
   "dependencies": {

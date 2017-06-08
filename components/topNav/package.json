@@ -1,0 +1,5 @@
+{
+    "name": "topNav", 
+    "scripts": ["topNav.js"],
+    "styles": ["topNav.scss"]
+}

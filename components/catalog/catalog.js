@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router';
 import {createStore} from 'redux';
 import './style.scss';
+import TopNav from '../topNav/topNav';
 
 function counter(state = 0, action) {
     switch (action.type) {
@@ -25,11 +26,7 @@ class Catalog extends Component {
     };
     render() {
         return (
-            <ul className="nav">
-                <li>
-                    <Link to="/hello/King">About</Link>
-                </li>
-            </ul>
+            <TopNav />
         );
     }
 }

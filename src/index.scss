@@ -2,6 +2,14 @@
     src: url(./asset/fontawesome-webfont.woff);
 }
 body{
-    background-image: url(./asset/img1.jpg);
-    transition: all 1s ease;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #666;
+    &:hover {
+        color: #333;
+    }
 }

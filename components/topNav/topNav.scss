@@ -1,0 +1,39 @@
+.top {
+    .topnav{
+        border-bottom: 1px solid #e7e7e7;
+        background-color: #f0f0f0;
+        line-height: 2.5;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 0;
+            li {
+                font-size: 12px;
+                display: inline-block;
+                padding: 0 16px;
+                position: relative;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    right: 0;
+                    top: 10px;
+                    display: inline-block;
+                    height: 10px;
+                    border-right: 1px solid #a7a7a7;
+                }
+                &:last-child {
+                    &:after {
+                        border-right: none;
+                    }
+                }
+            }
+        }
+        .topnav-fastlink {
+            float: left;
+        }
+        .topnav-user {
+            float: right;
+        }
+    }
+}

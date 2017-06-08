@@ -9,6 +9,9 @@ import { Router, Route, hashHistory } from 'react-router';
 //全局环境变量
 import config from './config';
 
+//normalize.css clearfix
+import "clearfix.css";
+import "normalize.css";
 //载入样式
 import "./index.scss";
 

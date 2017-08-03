@@ -22,9 +22,7 @@ class TopNav extends Component {
                     </ul>
                 </nav>
                 <header className="header">
-                    <div className="logo">
-                        <img src="/src/asset/ds-logo.png" alt="ds-logo"/>
-                    </div>
+                    
                 </header>
             </div>
         );

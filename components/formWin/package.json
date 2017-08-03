@@ -1,0 +1,5 @@
+{
+    "name": "formWin", 
+    "scripts": ["formWin.js"],
+    "styles": ["formWin.scss"]
+}
